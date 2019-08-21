@@ -60,3 +60,11 @@ def sum_array(array)
     ret += item
   end
 end
+
+def add_s(array)
+  array.map do |item|
+    item += "s"
+  end
+  
+  array[1] 
+end

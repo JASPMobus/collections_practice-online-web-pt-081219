@@ -43,6 +43,8 @@ end
 
 def kesha_maker(array)
   array.map do |str|
-    str[2] = "$"
+    cs = str.chars
+    cs[2] = "S"
+    cs.join
   end
 end

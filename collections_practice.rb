@@ -16,5 +16,13 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array, elt1, elt2)
-  
+  array.map do |elt|
+    if elt == elt1
+      elt2
+    elsif elt == elt2
+      elt1
+    else
+      elt
+    end
+  end
 end

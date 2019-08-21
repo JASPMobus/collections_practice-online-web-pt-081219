@@ -54,3 +54,9 @@ def find_a(array)
     item.chars[0] == "a"
   end
 end
+
+def sum_array(array)
+  array.inject do |ret = 0, item|
+    ret += item
+  end
+end

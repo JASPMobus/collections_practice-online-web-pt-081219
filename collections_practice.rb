@@ -32,5 +32,11 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  sort_array_desc(array)
+  retarray = []
+  
+  array.each do |item|
+    retarray.unshift(item)
+  end
+  
+  retarray
 end

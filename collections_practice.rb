@@ -66,5 +66,5 @@ def add_s(array)
     item += "s"
   end
   
-  array[1] 
+  array[1][0...array[1].length]
 end

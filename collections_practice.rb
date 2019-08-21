@@ -15,7 +15,7 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array, elt1, elt2)
+def swap_elements_general(array, elt1, elt2)
   array.map do |elt|
     if elt == elt1
       elt2

@@ -44,7 +44,7 @@ end
 def kesha_maker(array)
   array.map do |str|
     cs = str.chars
-    cs[2] = "S"
+    cs[2] = "$"
     cs.join
   end
 end

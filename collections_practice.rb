@@ -62,11 +62,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map do |item|
-    item += "s"
-  end
+  retarray = array.map {do} |item| item += "s" }
   
-  array[1][0...array[1].length]
+  retarray[1][0...retarray[1].length]
   
-  array
+  retarray
 end

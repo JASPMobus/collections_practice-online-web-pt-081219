@@ -40,3 +40,9 @@ def reverse_array(array)
   
   retarray
 end
+
+def kesha_maker(array)
+  array.map do |str|
+    
+  end
+end

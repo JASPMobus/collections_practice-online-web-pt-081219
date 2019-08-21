@@ -26,3 +26,7 @@ def swap_elements_general(array, elt1, elt2)
     end
   end
 end
+
+def swap_elements(array)
+  swap_elements_general(array, array[1], array[2])
+end

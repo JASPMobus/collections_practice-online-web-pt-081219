@@ -48,3 +48,9 @@ def kesha_maker(array)
     cs.join
   end
 end
+
+def find_a(array)
+  array.select do |item|
+    item.chars[0] == "a"
+  end
+end
